@@ -10,7 +10,6 @@ spring:
       discovery:
         locator:
           enabled: true
-
           routes:
             - id: categoria-cliente
               uri: lb://categoria-cliente/
