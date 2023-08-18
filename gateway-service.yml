@@ -10,13 +10,10 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: categoriaCliente
+        - id: categoriaRoute
           uri: lb://categoria-cliente/
           predicates:
             - Path=/categoria/**
-
-
-
 
 eureka:
   client:
